@@ -2,7 +2,6 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass, display
     const tab = document.querySelectorAll(tabSelector),
           header = document.querySelector(headerSelector),
           content = document.querySelectorAll(contentSelector);
-        //   active = document.querySelector(activeClass);
 
     function hideTabContent() {
         content.forEach(item => {
