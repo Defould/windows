@@ -32,11 +32,6 @@ const forms = (state) => {
         });
     };
 
-    // //ф-ция очистки state
-    // const clearState = (state) => {
-        
-    // };
-
     form.forEach(item => {
         item.addEventListener('submit', (e) => {
             e.preventDefault();
